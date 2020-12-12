@@ -1,0 +1,18 @@
+/* Defines the background color for the site */
+
+/* This functions as a border around the content */
+html,
+body {
+  background-color: #3498db;
+}
+
+/* This is what the content is displayed on top of */
+.foreground {
+  background-color: #ecf0f1;
+  position: fixed;
+  left: 0.5rem;
+  right: 0.5rem;
+  top: 1rem;
+  bottom: 1rem;
+  overflow: scroll;
+}

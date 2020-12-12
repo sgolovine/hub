@@ -1,29 +1,39 @@
 {
   "name": "Sunny Golovine",
-  "bio": "Hey! My name is Sunny",
+  "bio": "I make iPhone apps",
   "location": "Atlanta, GA",
   "email": "sunny@glvn.co",
   "phone": "+16786462358",
   "links": [
     {
+      "name": "Email",
+      "key": "email",
+      "href": "mailto:sunny@glvn.co"
+    },
+    {
       "name": "Instagram",
-      "href": "https://instagram.com/sgolovine"
+      "href": "https://instagram.com/sgolovine",
+      "key": "ig"
     },
     {
       "name": "Twitter",
-      "href": "https://twitter.com/_glvn"
+      "href": "https://twitter.com/_glvn",
+      "key": "tw"
     },
     {
       "name": "Github",
-      "href": "https://github.com/sgolovine"
+      "href": "https://github.com/sgolovine",
+      "key": "gh"
     },
     {
       "name": "LinkedIn",
-      "href": "https://linkedin.com/in/SunnyGolovine"
+      "href": "https://linkedin.com/in/SunnyGolovine",
+      "key": "lnkdn"
     },
     {
       "name": "Resume",
-      "href": "https://resume.glvn.co"
+      "href": "https://resume.glvn.co",
+      "key": "cv"
     }
   ]
 }

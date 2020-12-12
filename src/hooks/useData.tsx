@@ -1,6 +1,19 @@
 import { useStaticQuery, graphql } from "gatsby"
 
-export const useData = () => {
+type Data = {
+  bio: string
+  email: string
+  location: string
+  name: string
+  phone: string
+  links: {
+    key: string
+    name: string
+    href: string
+  }[]
+}
+
+export const useData = (): Data => {
   const data = useStaticQuery(graphql`
     query {
       dataJson {
