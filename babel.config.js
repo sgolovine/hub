@@ -1,12 +1,12 @@
 module.exports = {
-  presets: ['babel-preset-gatsby'],
+  presets: ["babel-preset-gatsby"],
   plugins: [
     [
-      'module-resolver',
+      "module-resolver",
       {
-        root: ['.'],
+        root: ["."],
         alias: {
-          '~': './src',
+          "~": "./src",
         },
       },
     ],
