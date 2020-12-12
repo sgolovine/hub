@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-postcss`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
@@ -20,6 +21,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/static/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/static/data`,
       },
     },
     `gatsby-transformer-sharp`,

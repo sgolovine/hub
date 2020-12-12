@@ -1,0 +1,29 @@
+{
+  "name": "Sunny Golovine",
+  "bio": "Hey! My name is Sunny",
+  "location": "Atlanta, GA",
+  "email": "sunny@glvn.co",
+  "phone": "+16786462358",
+  "links": [
+    {
+      "name": "Instagram",
+      "href": "https://instagram.com/sgolovine"
+    },
+    {
+      "name": "Twitter",
+      "href": "https://twitter.com/_glvn"
+    },
+    {
+      "name": "Github",
+      "href": "https://github.com/sgolovine"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/SunnyGolovine"
+    },
+    {
+      "name": "Resume",
+      "href": "https://resume.glvn.co"
+    }
+  ]
+}
