@@ -1,6 +1,6 @@
-# sunny.gg
+# Hub
 
-Custom version of LinkTree and BlueSocial landing pages
+Hub is a Linktree like site that works with NFC business cards.
 
 ## Inspiration
 
