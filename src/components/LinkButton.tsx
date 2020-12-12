@@ -23,7 +23,7 @@ export const LinkButton = ({ name, href, itemKey }: Props) => {
   const ButtonIcon = icons[itemKey]
   return (
     <a
-      className={`bg-${itemKey} py-4 my-2 bg-blue-300 shadow-lg rounded-md text-center text-gray-800 font-bold`}
+      className={`bg-${itemKey} py-4 my-2 bg-blue-300 shadow-lg rounded-md text-center font-bold`}
       key={itemKey}
       href={href}
     >

@@ -21,10 +21,13 @@ const HomePage = () => {
       </div>
       <div className="flex flex-col">
         <button className="p-4 my-2 bg-red-400 shadow-md rounded-md">
-          Add to Contacts
+          <p className="text-gray-800 font-bold">Add to Contacts</p>
+        </button>
+        <button className="p-4 my-2 bg-green-400 shadow-md rounded-md">
+          <p className="text-gray-800 font-bold">Send Message</p>
         </button>
       </div>
-      <hr />
+      <hr className="py-2" />
       <div className="flex flex-col">
         {data.links.map(link => {
           return (

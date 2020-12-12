@@ -8,6 +8,8 @@ body {
 
 /* This is what the content is displayed on top of */
 .foreground {
+  @apply rounded-md;
+  @apply shadow-md;
   background-color: #ecf0f1;
   position: fixed;
   left: 0.5rem;
