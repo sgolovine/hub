@@ -1,11 +1,19 @@
 import React from "react"
+import { navigate } from "gatsby"
 import { Avatar } from "~/components/Avatar"
 import { LocationIcon } from "~/components/icons/location"
 import { useData } from "~/hooks/useData"
 import { LinkButton } from "~/components/LinkButton"
+import { useVCard } from "~/hooks/useVCard"
 
 const HomePage = () => {
   const data = useData()
+  const vcard = useVCard()
+
+  const handleAddToContacts = () => {
+    navigate(vcard)
+  }
+
   return (
     <div>
       <Avatar />
@@ -20,7 +28,10 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <button className="p-4 my-2 bg-red-400 shadow-md rounded-md">
+        <button
+          onClick={handleAddToContacts}
+          className="p-4 my-2 bg-red-400 shadow-md rounded-md"
+        >
           <p className="text-gray-800 font-bold">Add to Contacts</p>
         </button>
         <button className="p-4 my-2 bg-green-400 shadow-md rounded-md">

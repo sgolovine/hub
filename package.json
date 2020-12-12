@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "hub",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "hub site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sunny Golovine <sunny@glvn.co>",
   "dependencies": {
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.5.0",
@@ -26,28 +26,18 @@
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/vcards-js": "^2.10.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "postcss": "^8.2.1",
     "prettier": "2.1.2",
     "typescript": "^4.1.3"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop -H 0.0.0.0 -p 8000",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

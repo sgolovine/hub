@@ -3,6 +3,7 @@ module.exports = {
     title: `sunny.gg`,
     description: `My Website`,
     author: `@sgolovine`,
+    siteUrl: "https://sunny.gg",
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -28,6 +29,13 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/static/data`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        data: `vcard`,
+        path: `${__dirname}/static/vcard`,
       },
     },
     `gatsby-transformer-sharp`,

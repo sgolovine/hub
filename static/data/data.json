@@ -35,5 +35,11 @@
       "href": "https://resume.glvn.co",
       "key": "resume"
     }
-  ]
+  ],
+  "vcard": {
+    "firstName": "Sunny",
+    "lastName": "Golovine",
+    "workPhone": "678-646-2358",
+    "url": "https://sunny.gg"
+  }
 }
