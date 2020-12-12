@@ -6,7 +6,6 @@ import { LinkButton } from "~/components/LinkButton"
 
 const HomePage = () => {
   const data = useData()
-  console.log(data)
   return (
     <div>
       <Avatar />
