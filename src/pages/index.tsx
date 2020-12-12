@@ -14,6 +14,10 @@ const HomePage = () => {
     navigate(vcard)
   }
 
+  const handleContact = () => {
+    navigate("/contact")
+  }
+
   return (
     <div>
       <Avatar />
@@ -34,7 +38,10 @@ const HomePage = () => {
         >
           <p className="text-gray-800 font-bold">Add to Contacts</p>
         </button>
-        <button className="p-4 my-2 bg-green-400 shadow-md rounded-md">
+        <button
+          onClick={handleContact}
+          className="p-4 my-2 bg-green-400 shadow-md rounded-md"
+        >
           <p className="text-gray-800 font-bold">Send Message</p>
         </button>
       </div>
