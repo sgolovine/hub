@@ -1,4 +1,5 @@
 import { useStaticQuery, graphql } from "gatsby"
+import { Icons } from "~/components/LinkButton"
 
 type Data = {
   bio: string
@@ -7,7 +8,7 @@ type Data = {
   name: string
   phone: string
   links: {
-    key: string
+    key: Icons
     name: string
     href: string
   }[]
@@ -25,6 +26,7 @@ export const useData = (): Data => {
         links {
           href
           name
+          key
         }
       }
     }

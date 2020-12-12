@@ -2,9 +2,11 @@ import React from "react"
 import { Avatar } from "~/components/Avatar"
 import { LocationIcon } from "~/components/icons/location"
 import { useData } from "~/hooks/useData"
+import { LinkButton } from "~/components/LinkButton"
 
 const HomePage = () => {
   const data = useData()
+  console.log(data)
   return (
     <div>
       <Avatar />
@@ -27,13 +29,12 @@ const HomePage = () => {
       <div className="flex flex-col">
         {data.links.map(link => {
           return (
-            <a
-              className="py-4 my-2 bg-blue-300 shadow-md rounded-md text-center text-gray-800 font-bold"
-              key={link.key}
+            <LinkButton
+              name={link.name}
               href={link.href}
-            >
-              {link.name}
-            </a>
+              key={link.key}
+              itemKey={link.key}
+            />
           )
         })}
       </div>

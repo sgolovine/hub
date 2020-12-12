@@ -1,0 +1,28 @@
+.bg-twitter {
+  background-color: #1da1f2;
+  opacity: 0.85;
+}
+.bg-github {
+  background-color: #181717;
+  opacity: 0.85;
+}
+.bg-instagram {
+  background-color: #e4405f;
+  opacity: 0.85;
+}
+.bg-linkedin {
+  background-color: #0077b5;
+  opacity: 0.85;
+}
+.bg-snapchat {
+  background-color: #fffc00;
+  opacity: 0.85;
+}
+.bg-email {
+  @apply bg-blue-600;
+  opacity: 0.85;
+}
+.bg-resume {
+  @apply bg-blue-600;
+  opacity: 0.85;
+}

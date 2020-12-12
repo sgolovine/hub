@@ -1,0 +1,7 @@
+export const SOCIAL_COLORS = {
+  INSTAGRAM: "#E4405F",
+  TWITTER: "#1DA1F2",
+  GITHUB: "#181717",
+  LINKEDIN: "#0077B5",
+  SNAPCHAT: "#FFFC00",
+}

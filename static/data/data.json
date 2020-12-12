@@ -7,33 +7,33 @@
   "links": [
     {
       "name": "Email",
-      "key": "email",
-      "href": "mailto:sunny@glvn.co"
+      "href": "mailto:sunny@glvn.co",
+      "key": "email"
     },
     {
       "name": "Instagram",
       "href": "https://instagram.com/sgolovine",
-      "key": "ig"
+      "key": "instagram"
     },
     {
       "name": "Twitter",
       "href": "https://twitter.com/_glvn",
-      "key": "tw"
+      "key": "twitter"
     },
     {
       "name": "Github",
       "href": "https://github.com/sgolovine",
-      "key": "gh"
+      "key": "github"
     },
     {
       "name": "LinkedIn",
       "href": "https://linkedin.com/in/SunnyGolovine",
-      "key": "lnkdn"
+      "key": "linkedin"
     },
     {
       "name": "Resume",
       "href": "https://resume.glvn.co",
-      "key": "cv"
+      "key": "resume"
     }
   ]
 }
