@@ -5,6 +5,7 @@ import { LocationIcon } from "~/components/icons/location"
 import { useData } from "~/hooks/useData"
 import { LinkButton } from "~/components/LinkButton"
 import { useVCard } from "~/hooks/useVCard"
+import { isMobile } from "react-device-detect"
 
 const HomePage = () => {
   const data = useData()
@@ -32,12 +33,14 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex flex-col">
-        <button
-          onClick={handleAddToContacts}
-          className="p-4 my-2 bg-red-400 shadow-md rounded-md"
-        >
-          <p className="text-gray-800 font-bold">Add to Contacts</p>
-        </button>
+        {isMobile && (
+          <button
+            onClick={handleAddToContacts}
+            className="p-4 my-2 bg-red-400 shadow-md rounded-md"
+          >
+            <p className="text-gray-800 font-bold">Add to Contacts</p>
+          </button>
+        )}
         <button
           onClick={handleContact}
           className="p-4 my-2 bg-green-400 shadow-md rounded-md"

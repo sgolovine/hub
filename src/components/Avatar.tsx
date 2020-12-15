@@ -8,7 +8,7 @@ export const Avatar = () => {
       file(absolutePath: { regex: "/profile-face.png/" }) {
         childImageSharp {
           fluid(maxWidth: 512) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
