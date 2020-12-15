@@ -62,5 +62,13 @@ module.exports = {
         icon: `static/images/profile-avatar.png`,
       },
     },
+    {
+      resolve: `gatsby-plugin-matomo`,
+      options: {
+        siteId: `3`,
+        matomoUrl: `https://stats.glvn.co/matomo`,
+        siteUrl: `https://sunny.gg`,
+      },
+    },
   ],
 }
