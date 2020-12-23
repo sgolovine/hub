@@ -1,7 +1,10 @@
 {
   "name": "Sunny Golovine",
   "bio": "I make iPhone apps",
-  "location": "Atlanta, GA",
+  "location": {
+    "label": "Atlanta, GA",
+    "link": "https://goo.gl/maps/szY1ddXgpsi2m1eH9"
+  },
   "email": "sunny@glvn.co",
   "phone": "+16786462358",
   "links": [

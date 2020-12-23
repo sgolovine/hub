@@ -24,10 +24,15 @@ const HomePage = () => {
       <Avatar />
       <div className="flex flex-col items-center py-4">
         <h1 className="text-lg font-semibold">{data.name}</h1>
-        <div className="flex flex-row items-center py-2">
+        <a
+          className="flex flex-row items-center py-2"
+          href={data.location.link}
+        >
           <LocationIcon fillColor="#444" />
-          <p className="text-sm font-light text-gray-600">{data.location}</p>
-        </div>
+          <p className="text-sm font-light text-gray-600">
+            {data.location.label}
+          </p>
+        </a>
         <div className="my-2">
           <p className="text-sm">{data.bio}</p>
         </div>

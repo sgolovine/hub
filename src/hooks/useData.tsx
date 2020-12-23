@@ -4,7 +4,10 @@ import { Icons } from "~/components/LinkButton"
 type Data = {
   bio: string
   email: string
-  location: string
+  location: {
+    label: string
+    link: string
+  }
   name: string
   phone: string
   links: {
@@ -20,7 +23,10 @@ export const useData = (): Data => {
       dataJson {
         bio
         email
-        location
+        location {
+          label
+          link
+        }
         name
         phone
         links {
